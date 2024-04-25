@@ -1,0 +1,26 @@
+{
+  "labels": ["Region A", "Region B", "Region C", "Region D", "Region E"],
+  "datasets": [
+    {
+      "label": "Football",
+      "backgroundColor": "#FF6384",
+      "borderColor": "#FF6384",
+      "borderWidth": 1,
+      "data": [65, 59, 80, 81, 56]
+    },
+    {
+      "label": "Cricket",
+      "backgroundColor": "#36A2EB",
+      "borderColor": "#36A2EB",
+      "borderWidth": 1,
+      "data": [28, 48, 40, 19, 86]
+    },
+    {
+      "label": "Rugby",
+      "backgroundColor": "#FFCE56",
+      "borderColor": "#FFCE56",
+      "borderWidth": 1,
+      "data": [45, 58, 70, 91, 34]
+    }
+  ]
+}
