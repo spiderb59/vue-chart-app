@@ -9,7 +9,7 @@ import { ref, onMounted } from 'vue';
 import Chart from 'chart.js/auto';
 import jsonData from './data.json'; 
 
-  export default {
+export default {
   name: 'App',
   setup() {
     const chart = ref(null);
@@ -39,11 +39,18 @@ import jsonData from './data.json';
     };
 
     onMounted(() => {
-      createChart(jsonData);
+      createChart(jsonData); 
     });
 
     return { chart };
   },
 };
 </script>
-</script>
+
+<style>
+#myChart {
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+}
+</style>
