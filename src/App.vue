@@ -1,7 +1,5 @@
-<script setup></script>
-
 <template>
   <div>
-    <h1>Hello World</h1>
+    <canvas id="myChart"></canvas>
   </div>
 </template>
